@@ -1,5 +1,73 @@
-img{
+body{
+   display: flex;
+   background-color: #f5f4d7;
+   margin: 0 0 0 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: black;
+}
+
+
+
+.foto{
    height: 200px;
    width: 200px;
    border-radius: 50%;
+}
+a{
+   color: white;
+   text-decoration: none;
+   line-height: 30px;
+}
+
+.bloco1{
+   height: 77vh;
+   width: 20%;
+   background-color: #1f6764;
+   text-align: center;
+   line-height: 30px;
+   padding-top: 175px;
+   
+}
+
+.bloco2{
+   height: 77vh;
+   width: 80%;
+   background-color: #f0f7da;
+   text-align: justify;
+   margin-left: 50px;
+   padding-top: 175px;
+}
+
+span{
+   color: #1f6764;
+}
+
+h3{
+   font-size: 18px;
+}
+
+p{
+   padding-top: 50PX;
+   padding-bottom: 20px;
+   font-size: 16;
+}
+
+h1{
+   font-size: 40px;
+}
+
+#link.insta{
+  width: 20px;
+  height: 20px;
+}
+
+ol, ul{
+   font-size: 25px;
+   line-height: 50px;
+}
+
+.link-icon{
+   height: 50px;
+   width: 50px;
+   padding-right: 25px;
 }
