@@ -7,7 +7,7 @@ body{
    
 }
 
-.foto{
+.bloco1 img{
    height: 225px;
    width: 225px;
    border-radius: 50%;
@@ -70,13 +70,18 @@ ol, ul{
    line-height: 50px;
 }
 
-#insta, #linkedin, #twitter, #git{
+::marker{
+   color: #1f6764;
+   font-size: larger;
+}
+
+div i{
 color: black;
 width: 60px;
 height: 50px;
 font-size: 40px;
 }
 
-#insta:hover, #linkedin:hover, #twitter:hover, #git:hover{
+div i:hover{
    color: #1f6764;
 }
