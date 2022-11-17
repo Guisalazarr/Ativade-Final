@@ -4,14 +4,14 @@ body{
    margin: 0 0 0 0;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    color: black;
+   
 }
-
-
 
 .foto{
    height: 225px;
    width: 225px;
    border-radius: 50%;
+   margin-bottom: 15px;
 }
 a{
    color: #f0f7da;
@@ -19,8 +19,13 @@ a{
    line-height: 30px;
 }
 
+a:hover{
+   color: black;
+}
+
+
 .bloco1{
-   height: 77vh;
+   height: 500px;
    width: 20%;
    background-color: #1f6764;
    text-align: center;
@@ -30,25 +35,29 @@ a{
 }
 
 .bloco2{
-   height: 77vh;
+   height: 500px;
    width: 80%;
    background-color: #f0f7da;
    text-align: justify;
    margin-left: 50px;
-   padding-top: 175px;
+   margin-top: 175px;
 }
-
 span{
    color: #1f6764;
 }
 
+#underline:hover{
+   text-decoration: underline;
+}
+
 h3{
+   margin-top: 30px;
    font-size: 18px;
 }
 
 p{
-   padding-top: 50PX;
-   padding-bottom: 20px;
+   margin-top: 70px;
+   margin-bottom: 60px;
    font-size: 16;
 }
 
@@ -56,18 +65,18 @@ h1{
    font-size: 40px;
 }
 
-#link.insta{
-  width: 20px;
-  height: 20px;
-}
-
 ol, ul{
    font-size: 25px;
    line-height: 50px;
 }
 
-.link-icon{
-   height: 50px;
-   width: 50px;
-   padding-right: 25px;
+#insta, #linkedin, #twitter, #git{
+color: black;
+width: 60px;
+height: 50px;
+font-size: 40px;
+}
+
+#insta:hover, #linkedin:hover, #twitter:hover, #git:hover{
+   color: #1f6764;
 }
